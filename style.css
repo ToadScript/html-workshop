@@ -1,3 +1,5 @@
+
+
 /* viide elemendile st muudame kõiki selliseid elemente */
 body {
     display: flex;
@@ -5,7 +7,24 @@ body {
     flex-direction: column;
     gap: 3em; /* vahe elementide vahel */
     align-items: center;
+    background-image: url("images/Background.jpg");
+    background-size: cover;
 }
+
+h1 {
+    font-family: "Holtwood One SC", serif;
+    color: #ffb860;
+        text-shadow: 2px 2px #100b07;
+}
+
+p {
+    font-family: "Fanwood Text", serif;
+    font-weight: bold;
+    font-size: 24px;
+    color: #1d260c;
+    text-shadow: 2px 2px #d1d9a5;
+}
+
 /* #-ga viitame elemendile, millel on selline id */
 #photo {
     max-width: 25em;
@@ -20,6 +39,11 @@ body {
     justify-content: center;
 }
 
+#con1 {
+    background-image: url("images/log22.jpg");
+    background-size: cover;
+}
+
 #textBox {
     max-height: 25em;
     overflow-x: hidden;
@@ -28,15 +52,16 @@ body {
 
 .card {
     width: 20em;
-    height: 25em;
+    height: 42em;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #D9D9D9;
+    background-image: url("images/log22.jpg");
+    background-size: cover;
     padding: 5em 1.5em 1.5em;
 }
 .icon {
-    max-width: 10em;
+    max-width: 15em;
 }
 iframe {
     width: 50em;
@@ -46,11 +71,20 @@ iframe {
 button {
     width: 20em;
     border: none;
-    background-color: #D9D9D9;
+    background-color: #e89f41;
     padding: 2em;
+    left: 100px;
+    border-radius: 15px;
+    box-shadow: 12px 12px 10px rgba(0, 0, 0, 0.7);
+    font-weight: bold;
+    font-size: 20px
 }
 
 button:hover {
-    background-color: #C8C6C6;
+    background-color: #d1fc87;
     cursor: pointer;
+}
+
+#paddingleft {
+    padding-left: 25px;
 }
